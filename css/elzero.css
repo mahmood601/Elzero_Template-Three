@@ -100,7 +100,7 @@ a {
   z-index: 1;
 }
 .dots {
-  background-image: url(/assets/dots.WebP);
+  background-image: url(assets/dots.WebP);
   width: 186px;
   height: 204px;
   background-repeat: no-repeat;
@@ -1311,7 +1311,7 @@ a {
 }
 .request .image {
   padding-top: var(--padding-section);
-  background-image: url(/assets/discount-background1.WebP);
+  background-image: url(assets/discount-background1.WebP);
   background-size: cover;
   text-align: center;
   color: #fff;
@@ -1636,10 +1636,10 @@ a {
 @keyframes chane-background {
   0%,
   100% {
-    background-image: url(/assets/discount-background1.WebP);
+    background-image: url(assets/discount-background1.WebP);
   }
   50% {
-    background-image: url(/assets/discount-background2.WebP);
+    background-image: url(assets/discount-background2.WebP);
   }
 }
 /* End Animation */
