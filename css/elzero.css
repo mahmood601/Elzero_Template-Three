@@ -100,7 +100,7 @@ a {
   z-index: 1;
 }
 .dots {
-  background-image: url(assets/dots.WebP);
+  background-image: url(../assets/dots.WebP);
   width: 186px;
   height: 204px;
   background-repeat: no-repeat;
@@ -1238,7 +1238,7 @@ a {
 .stats {
   padding-top: var(--padding-section);
   padding-bottom: var(--padding-section);
-  background-image: url("/assets/stats.WebP");
+  background-image: url("../assets/stats.WebP");
   background-size: cover;
   min-height: 300px;
   position: relative;
@@ -1311,7 +1311,7 @@ a {
 }
 .request .image {
   padding-top: var(--padding-section);
-  background-image: url(assets/discount-background1.WebP);
+  background-image: url(../assets/discount-background1.WebP);
   background-size: cover;
   text-align: center;
   color: #fff;
@@ -1535,6 +1535,16 @@ a {
   margin: 50px 0 0;
   border-top: 1px solid #444;
 }
+.footer .copyright p:first-child {
+  margin-bottom: 5px;
+}
+.footer .copyright a {
+  text-decoration: none;
+  color: white;
+}
+.footer .copyright a:hover {
+  color: var(--main-color);
+}
 /* End Footer */
 /* Start animations */
 @keyframes up-and-down {
@@ -1636,10 +1646,10 @@ a {
 @keyframes chane-background {
   0%,
   100% {
-    background-image: url(assets/discount-background1.WebP);
+    background-image: url(../assets/discount-background1.WebP);
   }
   50% {
-    background-image: url(assets/discount-background2.WebP);
+    background-image: url(../assets/discount-background2.WebP);
   }
 }
 /* End Animation */
